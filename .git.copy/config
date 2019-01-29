@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/ganadara135/testW.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://github.com/ganadara135/testW.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
